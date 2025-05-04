@@ -20,30 +20,28 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot desig
 ```plaintext
 uchicago-rag-chatbot/
 ├── data/
-│   ├── raw/                  # Raw scraped HTML
-│   ├── markdown/             # Converted Markdown files
-│   └── chunks/               # Final Markdown chunks
+│   ├── raw/                   # Raw scraped HTML
+│   ├── markdown/              # Converted Markdown files
 ├── embeddings/
-│   └── vectors/              # Optional: embedding storage
+│   └── vectors/               # Optional: embedding storage
 ├── notebooks/
-│   └── exploratory.ipynb     # Prototyping notebook
+│   ├── exploratory.ipynb      # Prototyping notebook
+│   ├── uchicago_scraper.ipynb # Converted Markdown files
 ├── src/
 │   ├── scraping/
-│   │   └── scrape.py
+│   │   └── scrape.py          # Optional: could be all .ipynb maybe
 │   ├── preprocessing/
-│   │   └── preprocess.py
+│   │   └── preprocess.py      # Optional: could be all .ipynb maybe
 │   ├── embeddings/
-│   │   └── embed.py
+│   │   └── embed.py           # Optional: could be all .ipynb maybe
 │   ├── rag_app/
-│   │   ├── app.py
-│   │   └── retriever.py
+│   │   ├── app.py             # Optional: could be all .ipynb maybe
+│   │   └── retriever.py       # Optional: could be all .ipynb maybe
 │   └── frontend/
-│       └── streamlit_app.py
+│       └── streamlit_app.py   # Optional: could be all .ipynb maybe
 ├── tests/
-│   ├── test_scraping.py
-│   ├── test_preprocessing.py
-│   └── test_embeddings.py
+│   ├── test_scraping.py       # Optional: could remove later
 ├── Dockerfile
 ├── requirements.txt
 ├── .gitignore
-└── README.md (you are here)
+└── README.md
