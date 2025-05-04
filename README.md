@@ -105,7 +105,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Running the Project
+### Running the Project (already done, no need to repeat)
 
 1. Launch Jupyter Lab/Notebook:
    ```
