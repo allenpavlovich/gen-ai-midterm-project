@@ -21,19 +21,19 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot desig
 ```plaintext
 gen-ai-midterm-project/
 ├── data/
-│   ├── discovered_links.json  # Links discovered during crawling phase
-│   ├── processed_links.json   # Status tracking of content processing
-│   ├── markdown/              # Converted Markdown files
-│   ├── category_summary.csv   # Summary of content by category
-│   └── word_count_summary.csv # Analysis of content length
+│   ├── discovered_links.json   # Links discovered during crawling phase
+│   ├── processed_links.json    # Status tracking of content processing
+│   ├── markdown/               # Converted Markdown files
+│   ├── category_summary.csv    # Summary of content by category
+│   └── word_count_summary.csv  # Analysis of content length
 ├── logs/
-│   └── .gitkeep               # Directory for logging output
+│   └── .gitkeep                # Directory for logging output
 ├── notebooks/
-│   ├── link_discovery.ipynb   # Phase 1: Web crawling to identify content
+│   ├── link_discovery.ipynb    # Phase 1: Web crawling to identify content
 │   └── content_processor.ipynb # Phase 2: Content extraction and conversion
-├── requirements.txt           # Project dependencies
-├── .gitignore                 # Git exclusion rules
-└── README.md                  # Project documentation
+├── requirements.txt            # Project dependencies
+├── .gitignore                  # Git exclusion rules
+└── README.md                   # Project documentation
 ```
 
 ## 📊 Project Phases
