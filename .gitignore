@@ -174,7 +174,8 @@ cython_debug/
 .pypirc
 
 # Project specific:
-# Keep logs directory
+# Keep logs directory but ignore contents
+logs/*
 !logs/.gitkeep
 # Visualization outputs
 data/*.png
