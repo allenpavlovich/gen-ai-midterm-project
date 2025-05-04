@@ -177,9 +177,6 @@ cython_debug/
 # Keep logs directory but ignore contents
 logs/*
 !logs/.gitkeep
-# Discovery links and processing data
-data/discovered_links.json
-data/processed_links.json
 # Visualization outputs
 data/*.png
 data/*.csv
