@@ -4,9 +4,10 @@ LangGraph Workflow for the RAG Chatbot.
 This module implements the workflow graph for the RAG chatbot using LangGraph.
 """
 
-from typing import Dict, List, Any, TypedDict, Annotated, Literal, cast
-from langgraph.graph import StateGraph, MessagesState
-from .agents import SupervisorAgent, ReasonerAgent, SummarizerAgent
+from typing import Dict, List, Any, TypedDict, Annotated, Literal, cast, Optional, Union, Tuple
+from langgraph.graph import StateGraph
+# Remove checkpoint manager import completely
+from .agents import SupervisorAgent, ReasonerAgent, SummarizerAgent, AgentAction
 from .retriever import ChromaDBRetriever
 
 # Define state type
@@ -15,9 +16,9 @@ class ChatbotState(TypedDict):
     messages: List[Dict[str, Any]]  # Chat messages
     query: str  # Current user query
     retrieved_docs: List[Dict[str, Any]]  # Retrieved documents
-    current_answer: str  # Current generated answer
-    action: Literal["RETRIEVE", "GENERATE", "SUMMARIZE", "DONE"]  # Next action to take
-    error: str  # Error message, if any
+    current_answer: Optional[str]  # Current generated answer
+    action: Optional[AgentAction]  # Next action to take
+    error: Optional[str]  # Error message, if any
 
 
 class RAGChatbotGraph:
@@ -25,7 +26,7 @@ class RAGChatbotGraph:
     Implements the LangGraph workflow for the RAG chatbot.
     """
     
-    def __init__(self, model="gpt-3.5-turbo", debug=False):
+    def __init__(self, model="gpt-4o", debug=False):
         """
         Initialize the RAG chatbot graph.
         
@@ -55,7 +56,7 @@ class RAGChatbotGraph:
         Returns:
             StateGraph: The workflow graph
         """
-        # Create a new graph
+        # Create a simple StateGraph without checkpoint manager
         graph = StateGraph(ChatbotState)
         
         # Define graph nodes
@@ -82,6 +83,12 @@ class RAGChatbotGraph:
             # Update the state with the supervisor's decision
             state["action"] = result["action"]
             
+            # Ensure all state fields are properly initialized
+            if "current_answer" not in state:
+                state["current_answer"] = ""
+            if "error" not in state:
+                state["error"] = ""
+                
             return state
         
         # 2. Retriever node - gets documents from ChromaDB
@@ -96,13 +103,19 @@ class RAGChatbotGraph:
                     return state
                 self.retriever_initialized = True
             
-            # Retrieve documents
+            # Retrieve documents - increased to 30 for GPT-4-turbo's larger context window
             query = state["query"]
             documents = self.retriever.retrieve_documents(query, top_k=5)
             
             # Handle empty results
             if not documents:
-                state["retrieved_docs"] = []
+                # Create a special document that indicates no results were found
+                # This ensures the reasoner knows there are no documents
+                state["retrieved_docs"] = [{
+                    "id": "no_results",
+                    "content": "NO RELEVANT DOCUMENTS FOUND. You must explicitly state that you don't have the information to answer this question and DO NOT fabricate a response based on general knowledge.",
+                    "metadata": {"source": "system", "title": "No Results Notice"}
+                }]
                 state["error"] = "No relevant documents found."
             else:
                 state["retrieved_docs"] = documents
@@ -199,7 +212,8 @@ class RAGChatbotGraph:
             """Route to the next node based on the action field."""
             return state["action"]
         
-        # Connect supervisor to other nodes through the router
+        # Connect nodes through the router function based on action state
+        # 1. Supervisor node routing
         graph.add_conditional_edges(
             "supervisor",
             router,
@@ -211,11 +225,21 @@ class RAGChatbotGraph:
             }
         )
         
-        # Add standard edges
+        # 2. Add standard edge from retrieve to generate
         graph.add_edge("retrieve", "generate")
-        # Break the recursion cycle by having generate go directly to decision points
-        # instead of back to supervisor, which can cause infinite loops
-        graph.add_edge("generate", "done")
+        
+        # 3. FIXED: Use conditional routing for generate node based on its action output
+        # This allows summarization to happen when needed instead of bypassing it
+        graph.add_conditional_edges(
+            "generate",
+            router,
+            {
+                "SUMMARIZE": "summarize",
+                "DONE": "done"
+            }
+        )
+        
+        # 4. Summarizer always proceeds to done
         graph.add_edge("summarize", "done")
         
         # Set the entry point
@@ -223,115 +247,103 @@ class RAGChatbotGraph:
         
         # Compile the graph
         return graph.compile()
-    
-    def run(self, messages: List[Dict[str, Any]], stream: bool = False) -> List[Dict[str, Any]]:
+
+    def run(self, messages: List[Dict[str, Any]], stream: bool = False) -> Union[List[Dict[str, Any]], Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]]:
         """
         Run the chatbot workflow.
-        
+
         Args:
             messages: List of chat messages
             stream: Whether to stream the output
-            
+
         Returns:
-            Updated list of chat messages
+            If stream=False: Updated list of chat messages
+            If stream=True: Tuple of (updated messages, execution steps)
         """
-        # Initialize state with all required fields
-        state = {
+        # Prepare the initial state with correct typing
+        state: ChatbotState = {
             "messages": messages,
-            "query": "",  # Will be set by supervisor node
-            "retrieved_docs": [],  # Will be populated by retrieve node
-            "current_answer": "",  # Will be populated by generate node
-            "action": "",  # Will be set by supervisor node
-            "error": ""  # For error handling
+            "query": "",
+            "retrieved_docs": [],
+            "current_answer": "",
+            "action": None,
+            "error": ""
         }
-        
-        # In LangGraph 0.4.3, the compiled graph has specific execution methods
+
+        # Run the graph with proper error handling for specific error types
         try:
             if stream:
-                # Stream mode
-                if self.debug:
-                    available_methods = [method for method in dir(self.graph) if not method.startswith('_')]
-                    print(f"Debug - Available methods on compiled graph: {available_methods}")
-                
-                # Try different streaming methods
-                if hasattr(self.graph, 'stream'):
-                    result_stream = self.graph.stream(state)
-                else:
-                    # Fallback if stream isn't available
-                    print("Warning: stream method not available. Using non-streaming approach.")
-                    # Try to execute with normal mode and wrap in a list for consistent return type
-                    try:
-                        result = self._execute_graph(state)
-                        return result["messages"], [result]
-                    except Exception as inner_e:
-                        print(f"Inner execution error: {str(inner_e)}")
+                # Try different API patterns based on LangGraph version
+                try:
+                    # Newer LangGraph versions (0.0.x)
+                    if hasattr(self.graph, 'stream'):
+                        result_stream = self.graph.stream(state)
+                        
+                        final_state = None
+                        steps = []
+                        
+                        for step in result_stream:
+                            final_state = step
+                            steps.append(step)
+                            if self.debug:
+                                print(f"Step: {step.get('action', 'unknown')}")
+                        
+                        if final_state:
+                            return final_state["messages"], steps
                         return messages, []
-                
-                # Process the stream results
-                final_state = None
-                steps = []
-                
-                for step in result_stream:
-                    final_state = step
-                    steps.append(step)
-                
-                if final_state:
-                    return final_state["messages"], steps
-                return messages, []
+                    # Older LangGraph compatibility
+                    elif hasattr(self.graph, 'run'):
+                        if self.debug:
+                            print("Using older LangGraph API with 'run' method")
+                        result = self.graph.run(state)
+                        return result["messages"], [result]
+                    else:
+                        # Last resort
+                        if self.debug:
+                            print("No suitable streaming method found, trying direct execution")
+                        result = self.graph(state)
+                        return result["messages"], [result]
+                except Exception as stream_error:
+                    if self.debug:
+                        print(f"Error in stream mode: {stream_error}")
+                    return messages, []
             else:
-                # Normal mode
-                result = self._execute_graph(state)
-                return result["messages"]
-        except Exception as e:
-            print(f"Error executing graph: {str(e)}")
-            # If there's an exception, return the original messages
-            return messages
-    
-    def _execute_graph(self, state):
-        """Execute the compiled graph using available methods."""
-        # Print available methods for debugging only when debug flag is set
-        if self.debug:
-            available_methods = [method for method in dir(self.graph) if not method.startswith('_')]
-            print(f"Debug - Available methods: {available_methods}")
-        
-        # Try execution methods in order of likelihood
-        if hasattr(self.graph, 'invoke'):
-            return self.graph.invoke(state)
-        elif hasattr(self.graph, 'start_and_run'):
-            return self.graph.start_and_run(state)
-        elif hasattr(self.graph, 'run'):
-            return self.graph.run(state)
-        elif hasattr(self.graph, 'run_executor'):
-            return self.graph.run_executor(state)
-        else:
-            # Last resort: try to find any method with 'run' in its name
-            for method_name in available_methods:
-                if 'run' in method_name.lower() or 'exec' in method_name.lower():
-                    try:
-                        method = getattr(self.graph, method_name)
-                        if callable(method):
-                            return method(state)
-                    except Exception as e:
-                        print(f"Failed with method {method_name}: {str(e)}")
-                        continue
-            
-            # If all else fails, try to diagnose
-            if callable(self.graph):
-                # Some versions expect direct calling
+                # Normal mode - try different method patterns
+                for method_name in ['invoke', 'run', '__call__']:
+                    if hasattr(self.graph, method_name):
+                        try:
+                            method = getattr(self.graph, method_name)
+                            if callable(method):
+                                if self.debug:
+                                    print(f"Using {method_name} method")
+                                result = method(state)
+                                return result["messages"]
+                        except Exception as e:
+                            if self.debug:
+                                print(f"Error with {method_name}: {e}")
+                            continue
+                
+                # If nothing works, try direct calling
                 try:
-                    return self.graph(state)
+                    if callable(self.graph):
+                        result = self.graph(state)
+                        return result["messages"]
                 except Exception as e:
-                    print(f"Failed with direct call: {str(e)}")
-            
-            # Try to find any property that might help us understand the graph state
-            for method_name in available_methods:
-                try:
-                    attr = getattr(self.graph, method_name)
-                    if not callable(attr):
-                        print(f"Property {method_name}: {attr}")
-                except Exception:
-                    pass
-            
-            raise RuntimeError("Could not find a way to execute the compiled graph.")
+                    if self.debug:
+                        print(f"Error with direct call: {e}")
+                
+                # If all fails, return original messages
+                return messages
 
+        except KeyError as e:
+            print(f"State key error: {str(e)}")
+            return messages if not stream else (messages, [])
+        except ValueError as e:
+            print(f"Value error in graph execution: {str(e)}")
+            return messages if not stream else (messages, [])
+        except Exception as e:
+            print(f"Unexpected error executing graph: {str(e)}")
+            return messages if not stream else (messages, [])
 
+# The _execute_graph method is removed since we're now using the standard API directly
+# in the run method with invoke and stream

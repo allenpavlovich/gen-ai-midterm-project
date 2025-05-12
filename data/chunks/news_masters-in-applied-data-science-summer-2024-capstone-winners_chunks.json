@@ -1,0 +1,92 @@
+[
+  {
+    "page_content": "## Master’s in Applied Data Science Summer 2024 Capstone Winners\n\nMS in Applied Data Science students deliver impactful solutions through capstone projects.\n\nThe Capstone Project is a cornerstone of the [MS in Applied Data Science](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/) program, pairing students with industry partners to tackle pressing data science challenges. At the recent Summer Showcase, a diverse range of projects showcased the innovative solutions developed by these talented individuals. Six teams were particularly recognized for their exceptional work.\n\nGreg Green, Senior Instructional Professor and Director of the MS in Applied Data Science program looked back on the Capstone Showcase, stating, “The advanced AI and Data Science Capstone projects completed this summer spanned many technical areas including NLP, Computer Vision/Deep Learning, Advanced Machine Learning and Large Language Models just recently made available. We continue to be impressed not only with the advanced thinking within the technical solutions but the clarity of communication and presentation styles that make these solutions understandable to senior business leaders from a variety of domains of expertise.”\n\nOne of the Summer Capstone winners, Peerapak Adsavakulchai, observed that one key strength of his team was their diverse backgrounds. His teammates came from various fields, including trading, consulting, and data science-driven research. This diversity contributed to each team member bringing a unique perspective and skill set to the project.\n\nLearn more about the projects that won Best in Show below.",
+    "metadata": {
+      "title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI",
+      "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-summer-2024-capstone-winners",
+      "category": "news",
+      "date": "2025-05-04",
+      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "filename": "news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "section_level": "main",
+      "section": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "subsection": null,
+      "header_level": 2,
+      "header_text": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "chunk_id": "news_masters-in-applied-data-science-summer-2024-capstone-winners_0",
+      "document_title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI"
+    }
+  },
+  {
+    "page_content": "### FTI Consulting | FTI Chat\n\nPresenters: Peerapak Adsavakulchai, Jason Rajan, Kanu Madhok, James McKenzie\n\nFaculty Advisor: Abid Ali\n\nProject Topic: This capstone group developed an AI-powered business development tool for FTI Consulting. FTI and other consulting companies, operate based on project-to-project basis and it is hard to maintain a traditional, and more efficient databases like other companies that conduct transactional businesses. A lot of the data resides in “inefficient” file types. FTI Chat, a chatbot leveraging LLMs, automates project approach creation based on client needs. FTI Chat retrieves past project data using RAG and generates responses via an open-source LLM. Due to its ease of usage, FTI Chat has the potential to become a staple product that is deployed independently where different teams can use to streamline their business development process.",
+    "metadata": {
+      "title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI",
+      "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-summer-2024-capstone-winners",
+      "category": "news",
+      "date": "2025-05-04",
+      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "filename": "news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "section_level": "subsection",
+      "section": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "subsection": "FTI Consulting | FTI Chat",
+      "header_level": 3,
+      "header_text": "FTI Consulting | FTI Chat",
+      "chunk_id": "news_masters-in-applied-data-science-summer-2024-capstone-winners_1",
+      "document_title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI"
+    }
+  },
+  {
+    "page_content": "### Independent Student Project | Federal Government Contract Dollar Awards to Small Businesses for Fiscal Year 2023\n\nPresenters: Zhengliang Jiang, Alexander Saucedo, Yansong Guo\n\nFaculty Advisor: Anil Chaturvedi\n\nProject Topic: For the last three fiscal years, the United States government has failed to meet\nprime contract award goals for Women-Owned Small Businesses (WOSB) and Historically Underutilized Business Zone (HUBZone) businesses as established in the Small Business Act 15 U.S.C. 644(g). To understand the shared attributes of these two business categories and the business categories that met the award goals, this study analyzes 2023 federal contract awards using autoencoding models for dimensionality reduction and t-SNE for visualization to identify clusters. This team’s findings provide insights into which agencies and types of contracts were awarded to various small\nbusiness categories.",
+    "metadata": {
+      "title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI",
+      "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-summer-2024-capstone-winners",
+      "category": "news",
+      "date": "2025-05-04",
+      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "filename": "news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "section_level": "subsection",
+      "section": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "subsection": "Independent Student Project | Federal Government Contract Dollar Awards to Small Businesses for Fiscal Year 2023",
+      "header_level": 3,
+      "header_text": "Independent Student Project | Federal Government Contract Dollar Awards to Small Businesses for Fiscal Year 2023",
+      "chunk_id": "news_masters-in-applied-data-science-summer-2024-capstone-winners_2",
+      "document_title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI"
+    }
+  },
+  {
+    "page_content": "### Tilia Holdings | Strategic Growth in Food Manufacturing and Distribution: Natural Language Processing Approach\n\nPresenters: Kinjal Joshi, Jaelynn Kim, Benjamin Li, Sophia Fumagalli\n\nFaculty Advisor: Gizem Aydin\n\nProject Topic: Tilia Holdings, a private equity firm specializing in food manufacturing and distribution investments, lacks an in-house approach for market research. This team used natural language processing (NLP) to create a tool focused on analyzing earnings call transcripts of major food companies. This tool provides current and historical strategic focus, market outlook, and maturity and sentiment analysis. It aims to reduce Tilia’s market research costs, provide proactive insights, and enhance investment success.",
+    "metadata": {
+      "title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI",
+      "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-summer-2024-capstone-winners",
+      "category": "news",
+      "date": "2025-05-04",
+      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "filename": "news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "section_level": "subsection",
+      "section": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "subsection": "Tilia Holdings | Strategic Growth in Food Manufacturing and Distribution: Natural Language Processing Approach",
+      "header_level": 3,
+      "header_text": "Tilia Holdings | Strategic Growth in Food Manufacturing and Distribution: Natural Language Processing Approach",
+      "chunk_id": "news_masters-in-applied-data-science-summer-2024-capstone-winners_3",
+      "document_title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI"
+    }
+  },
+  {
+    "page_content": "### **Honorable Mentions**\n\n#### **Ateema | AI-Driven Chicago Show**\n\nPresenters: Hyojun Kim, Marian Xu, Chui Ning Kung, Aiman Al-Taubi\n\nFaculty Advisor: Sanjay Boddhu\n\n#### ****CogniEdu | AI-Powered Academic Planning for Student Success****\n\nPresenters: Mike Meissner, Joe Strickland, Adela Cho, Roselyn Rozario, Forough Mofidi\n\nFaculty Advisor: Nick Kadochnikov\n\n#### **UChicago Medicine Department of Radiology | Impact of Heterogeneous Model Ensembling on Detection of Prostate Cancer from MRI**\n\nPresenters: Devan Richter, Siobhan McDermott, Connor Mulshine\n\nFaculty Advisor: Batu Gundogdu",
+    "metadata": {
+      "title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI",
+      "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-summer-2024-capstone-winners",
+      "category": "news",
+      "date": "2025-05-04",
+      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "filename": "news_masters-in-applied-data-science-summer-2024-capstone-winners.md",
+      "section_level": "subsection",
+      "section": "Master’s in Applied Data Science Summer 2024 Capstone Winners",
+      "subsection": "**Honorable Mentions**",
+      "header_level": 3,
+      "header_text": "**Honorable Mentions**",
+      "chunk_id": "news_masters-in-applied-data-science-summer-2024-capstone-winners_4",
+      "document_title": "Master’s in Applied Data Science Summer 2024 Capstone Winners – DSI"
+    }
+  }
+]
