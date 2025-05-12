@@ -158,6 +158,41 @@ class ChromaDBRetriever:
                     }
                     documents.append(document)
             
+            # Check if query is about tuition, costs, or fees
+            tuition_related = any(term in query.lower() for term in ["tuition", "cost", "fee", "fees", "price", "financial", "aid", "scholarship"])
+            
+            # For tuition-related queries, scan for tuition information
+            if tuition_related:
+                print("Performing direct tuition information search")
+                try:
+                    # Get more documents from the collection
+                    tuition_results = self.collection.query(
+                        query_embeddings=main_query_embedding,
+                        n_results=50
+                    )
+                    
+                    # Look for documents with tuition keywords
+                    if tuition_results and len(tuition_results["ids"]) > 0:
+                        tuition_documents = []
+                        for i in range(len(tuition_results["ids"][0])):
+                            content = tuition_results["documents"][0][i]
+                            # Look for paragraphs that contain tuition information
+                            if any(marker in content.lower() for marker in ["tuition", "cost", "fee", "financial aid", "scholarship", "$", "dollar", "payment"]):
+                                doc = {
+                                    "id": tuition_results["ids"][0][i],
+                                    "content": content,
+                                    "metadata": tuition_results["metadatas"][0][i] if "metadatas" in tuition_results else {},
+                                    "similarity": 0.95  # High relevance for tuition info
+                                }
+                                tuition_documents.append(doc)
+                        
+                        # Add tuition documents to our results
+                        if tuition_documents:
+                            print(f"Found {len(tuition_documents)} tuition-related documents")
+                            documents.extend(tuition_documents)
+                except Exception as e:
+                    print(f"Tuition search failed: {e}")
+            
             # For core course queries, always explicitly scan through collection even if we found documents
             if course_related and "core" in query.lower():
                 print("Performing direct course search due to poor retrieval results")
@@ -254,6 +289,12 @@ class ChromaDBRetriever:
             expanded_queries.append("core courses curriculum")
             expanded_queries.append("required foundation courses")
             expanded_queries.append("core course list descriptions")
+            
+        # Add variations for tuition-related queries
+        if any(term in query.lower() for term in ["tuition", "cost", "fee", "price", "financial"]):
+            expanded_queries.append("program tuition costs fees")
+            expanded_queries.append("tuition information financial details")
+            expanded_queries.append("cost of attendance financial aid")
         
         return expanded_queries
     
