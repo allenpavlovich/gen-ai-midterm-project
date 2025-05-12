@@ -6,7 +6,7 @@ for the RAG chatbot architecture.
 """
 
 import json
-from typing import List, Dict, Any, Optional, Literal
+from typing import List, Dict, Any, Optional, Literal, TypedDict, Union, cast
 from openai import OpenAI
 
 # Agent action types
@@ -18,7 +18,7 @@ class SupervisorAgent:
     and decides which action to take next in the workflow.
     """
     
-    def __init__(self, model="gpt-3.5-turbo"):
+    def __init__(self, model="gpt-4o"):
         """
         Initialize the Supervisor Agent.
         
@@ -143,7 +143,7 @@ class ReasonerAgent:
     The Reasoner Agent generates detailed answers based on retrieved documents and user queries.
     """
     
-    def __init__(self, model="gpt-3.5-turbo"):
+    def __init__(self, model="gpt-4o"):
         """
         Initialize the Reasoner Agent.
         
@@ -230,8 +230,13 @@ Based on the above information, please provide a comprehensive answer to the que
         Returns:
             Formatted string of documents
         """
+        # Handle the special case for no documents or the explicit "no results" document
         if not documents:
             return "IMPORTANT: NO RELEVANT DOCUMENTS FOUND. You must explicitly state that you don't have the information to answer this question and DO NOT fabricate a response based on general knowledge."
+        
+        # Check if the single document is our special "no results" marker
+        if len(documents) == 1 and documents[0].get("id") == "no_results":
+            return documents[0].get("content", "NO RELEVANT DOCUMENTS FOUND. You must explicitly state that you don't have the information to answer this question and DO NOT fabricate a response based on general knowledge.")
         
         formatted_parts = []
         for i, doc in enumerate(documents):
@@ -253,7 +258,7 @@ class SummarizerAgent:
     The Summarizer Agent condenses lengthy information into concise answers.
     """
     
-    def __init__(self, model="gpt-3.5-turbo"):
+    def __init__(self, model="gpt-4o"):
         """
         Initialize the Summarizer Agent.
         

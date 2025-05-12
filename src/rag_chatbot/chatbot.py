@@ -4,7 +4,7 @@ User-facing interface for the RAG Chatbot.
 This module provides a simple interface to interact with the RAG chatbot.
 """
 
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Any, Optional, Tuple, Union
 from .graph import RAGChatbotGraph
 
 class RAGChatbot:
@@ -12,7 +12,7 @@ class RAGChatbot:
     User-facing interface for the RAG chatbot.
     """
     
-    def __init__(self, model="gpt-3.5-turbo", debug=False):
+    def __init__(self, model="gpt-4o", debug=False):
         """
         Initialize the RAG chatbot.
         
@@ -40,7 +40,7 @@ class RAGChatbot:
         """
         self.messages.append({"role": role, "content": content})
     
-    def chat(self, user_message: str, stream: bool = False) -> str:
+    def chat(self, user_message: str, stream: bool = False) -> Union[str, Tuple[str, List[Dict[str, Any]]]]:
         """
         Process a user message and return the assistant's response.
         
@@ -49,7 +49,8 @@ class RAGChatbot:
             stream (bool): Whether to stream the output (for debugging).
             
         Returns:
-            str: The assistant's response.
+            If stream=False: str - The assistant's response
+            If stream=True: Tuple[str, List] - The assistant's response and debug steps
         """
         # Add the user message
         self.add_message("user", user_message)
