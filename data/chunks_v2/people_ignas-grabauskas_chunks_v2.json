@@ -1,0 +1,33 @@
+[
+  {
+    "page_content": "People",
+    "metadata": {
+      "title": "Ignas Grabauskas – DSI",
+      "original_url": "https://datascience.uchicago.edu/people/ignas-grabauskas",
+      "category": "people",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/people_ignas-grabauskas.md",
+      "filename": "people_ignas-grabauskas.md",
+      "chunk_id": "people_ignas-grabauskas_0",
+      "section_level": "document",
+      "header_text": null,
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Ignas Grabauskas\nInstructor; Data Scientist at Simpson Thacher\n\nNatural Language Processing\n\nIgnas Grabauskas is a Data Scientist at Simpson, Thacher & Bartlett, a leading law firm known for its expertise in financial and corporate law. He has over five years of experience applying machine learning and deep learning techniques in finance and legal domains. His recent work includes using LLMs for tasks such as document classification, customized named-entity recognition (NER), and summarization. Ignas holds a BA in Physics from the University of Chicago and is an alumnus of the MS in Applied Data Science program.",
+    "metadata": {
+      "title": "Ignas Grabauskas – DSI",
+      "original_url": "https://datascience.uchicago.edu/people/ignas-grabauskas",
+      "category": "people",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/people_ignas-grabauskas.md",
+      "filename": "people_ignas-grabauskas.md",
+      "section": "#### Ignas Grabauskas",
+      "chunk_id": "people_ignas-grabauskas_1",
+      "section_level": "header",
+      "header_text": "#### Ignas Grabauskas",
+      "header_level": 0
+    }
+  }
+]

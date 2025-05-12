@@ -1,12 +1,12 @@
 [
   {
-    "page_content": "### Brief AI | Revolution in Finance\n\nPresenters: Jose Gerala Palacios, Vishal Parameswaran, Sanchit Narayan Kumar, Garima Sohi\n\nFaculty Advisor: [Nick Kadochnikov](https://datascience.uchicago.edu/people/nick-kadochnikov/)\n\nProject Topic: Improved efficiency for financial analysts with AI tools to analyze earnings calls. The AI tools included a fine-tuning LLM trained on earnings calls to extract Key Performance Indicators and JAVI, a chatbot that allows you to have a conversation based on any earnings call.",
+    "page_content": "### Brief AI | Revolution in Finance\n\nPresenters: Jose Gerala Palacios, Vishal Parameswaran, Sanchit Narayan Kumar, Garima Sohi\n\nFaculty Advisor: [Nick Kadochnikov](https://datascience.uchicago.edu/people/nick-kadochnikov/)\n\nProject Topic: Enhanced efficiency for financial analysts using AI tools to analyze earnings calls. The tools included a fine-tuned LLM trained on earnings calls to extract Key Performance Indicators and JAVI, a chatbot enabling conversation based on any earnings call.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -18,13 +18,13 @@
     }
   },
   {
-    "page_content": "### Argonne National Labs | Smart Electric Vehicle Charging: A Reinforcement Learning Perspective\n\nPresenters: Tim Fan, Suenkei Chan, Salman Yousaf, Keerthana Adavelli\n\nFaculty Advisor: [Gizem Aydin](https://datascience.uchicago.edu/people/gizem-aydim-phd/)\n\nProject Topic: Optimized EV smart charging to minimize grid strain by using a simulated environment and dataset based on Argonne’s EV charging infrastructure. “The goal was to train and tune a reinforcement learning framework and then evaluate it in terms of energy efficiency, peak power constraints, and user satisfaction,” the team said.",
+    "page_content": "### Argonne National Labs | Smart Electric Vehicle Charging: A Reinforcement Learning Perspective\n\nPresenters: Tim Fan, Suenkei Chan, Salman Yousaf, Keerthana Adavelli\n\nFaculty Advisor: [Gizem Aydin](https://datascience.uchicago.edu/people/gizem-aydim-phd/)\n\nProject Topic: Optimized EV smart charging to reduce grid strain using a simulated environment and dataset based on Argonne’s EV charging infrastructure. “The goal was to train and tune a reinforcement learning framework and then evaluate it in terms of energy efficiency, peak power constraints, and user satisfaction,” the team said.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -36,13 +36,13 @@
     }
   },
   {
-    "page_content": "### New Avenues | Increasing Efficacy of Traditional Employer-Sponsored Mental & Behavioral Support\n\nPresenters: Jinghong (David) He, Luxin (Lucy) Huang, Xueyao Wang, Zhen Jia (Sunny) Sun\n\nFaculty Advisor: [Wendy Klusendorf](https://datascience.uchicago.edu/people/wendy-klusendorf-ms/)\n\nProject Topic: Developed a procedure for New Avenues that accurately matched employees and their dependents within their Employee Assistance Program to appropriate mental healthcare providers. The team did this by using data-driven machine learning to develop better practices for matching patients with providers by identifying the key patient symptoms that lead to a higher level of care.",
+    "page_content": "### New Avenues | Increasing Efficacy of Traditional Employer-Sponsored Mental & Behavioral Support\n\nPresenters: Jinghong (David) He, Luxin (Lucy) Huang, Xueyao Wang, Zhen Jia (Sunny) Sun\n\nFaculty Advisor: [Wendy Klusendorf](https://datascience.uchicago.edu/people/wendy-klusendorf-ms/)\n\nProject Topic: Developed a procedure for New Avenues to accurately match employees and their dependents in the Employee Assistance Program to appropriate mental healthcare providers. The team used data-driven machine learning to improve matching practices by identifying key patient symptoms that indicate a need for higher levels of care.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -54,13 +54,13 @@
     }
   },
   {
-    "page_content": "### Komatsu | Performance Evaluation of Komatsu Distributors with Telematics Data and Commodity Sales History\n\nPresenters: Minh Vo, Maggie Chuang, Kelsey Liu, Sakshi Shende\n\nFaculty Advisor: [Roger Moore](https://datascience.uchicago.edu/people/roger-moore-mba/)\n\nProject Topic: Komatsu is a leading global manufacturer of construction, mining, and forestry equipment, and the capstone team used machine learning models to analyze data and improve performance evaluation of Komatsu distributors. The team also leveraged commodity sales and the telematics machine data to identify relationships between machine data and parts consumption.",
+    "page_content": "### Komatsu | Performance Evaluation of Komatsu Distributors with Telematics Data and Commodity Sales History\n\nPresenters: Minh Vo, Maggie Chuang, Kelsey Liu, Sakshi Shende\n\nFaculty Advisor: [Roger Moore](https://datascience.uchicago.edu/people/roger-moore-mba/)\n\nProject Topic: Komatsu, a global manufacturer of construction, mining, and forestry equipment, partnered with the capstone team to use machine learning models for analyzing data and improving distributor performance evaluation. The team leveraged commodity sales and telematics machine data to identify relationships between machine data and parts consumption.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -72,13 +72,13 @@
     }
   },
   {
-    "page_content": "### Research (Healthcare GPT) | AI Powered Radiology Report Automation\n\nPresenters: Mariam Adeyemo, Saloni Khandelwal, Preetika Parashar, Yun Xing, Jeniffer Dongha Lee\n\nFaculty Advisor: [Utku Pamuksuz](https://datascience.uchicago.edu/people/utku-pamuksuz-phd/)\n\nProject Topic: Used AI to generate radiology reports based on findings and patient information using a large language model (LLM) trained on MRI and ultrasound data from UChicago Medicine. “This will greatly assist radiologists by advancing the automation of the documentation process,” the team said.",
+    "page_content": "### Research (Healthcare GPT) | AI Powered Radiology Report Automation\n\nPresenters: Mariam Adeyemo, Saloni Khandelwal, Preetika Parashar, Yun Xing, Jeniffer Dongha Lee\n\nFaculty Advisor: [Utku Pamuksuz](https://datascience.uchicago.edu/people/utku-pamuksuz-phd/)\n\nProject Topic: Used AI to generate radiology reports from findings and patient information with a large language model (LLM) trained on MRI and ultrasound data from UChicago Medicine. “This will greatly assist radiologists by advancing the automation of the documentation process,” the team said.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -90,13 +90,13 @@
     }
   },
   {
-    "page_content": "### Research (Healthcare GPT) | Decoder-Only Computed Tomography Radiology Reports (DOCTRR)\n\nPresenters: Tegan Keigher, Mary Erikson, Andrew Alvarez\n\nProject Topic: Harnessed the potential of large language models to automatically generate accurate findings sections of CT radiology reports as this is a challenging task demanding substantial time and effort from radiologists. “Our vector-to-sequence model was in the end capable of producing radiology reports with a level of accuracy and quality comparable to that of human physicians,” the team said.",
+    "page_content": "### Research (Healthcare GPT) | Decoder-Only Computed Tomography Radiology Reports (DOCTRR)\n\nPresenters: Tegan Keigher, Mary Erikson, Andrew Alvarez\n\nProject Topic: Leveraged large language models to automatically generate accurate findings sections of CT radiology reports, a task that typically requires significant time and effort from radiologists. “Our vector-to-sequence model was in the end capable of producing radiology reports with a level of accuracy and quality comparable to that of human physicians,” the team said.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -108,13 +108,13 @@
     }
   },
   {
-    "page_content": "### US Ignite | US Ignite National Broadband Tool\n\nPresenters: Kishor Kumar Reddy, Shweta Sampath Kumar, Swathi Ganesan, Marc Edwards\n\nFaculty Advisor: [Don Patchell](https://datascience.uchicago.edu/people/donald-patchell-mse-mba/)\n\nProject Topic: Developed AI tool to predict economic impact of broadband access and write data- and insight-driven grant proposals to apply for and secure government funds. The capstone sponsor works with communities, businesses, local governments, and federal agencies to aid community leaders in securing funding and effectively managing broadband transformation projects. Existing studies have shown that nearly one-third of U.S. cities lack access to fast, reliable internet and that closing this gap would improve economic opportunities in those areas while also improving the quality of life for their populations.",
+    "page_content": "### US Ignite | US Ignite National Broadband Tool\n\nPresenters: Kishor Kumar Reddy, Shweta Sampath Kumar, Swathi Ganesan, Marc Edwards\n\nFaculty Advisor: [Don Patchell](https://datascience.uchicago.edu/people/donald-patchell-mse-mba/)\n\nProject Topic: Developed an AI tool to predict the economic impact of broadband access and create data- and insight-driven grant proposals to secure government funding. The capstone sponsor collaborates with communities, businesses, local governments, and federal agencies to help community leaders obtain funding and manage broadband transformation projects. Existing studies show that nearly one-third of U.S. cities lack fast, reliable internet, and closing this gap would improve economic opportunities and quality of life in those areas.",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",
@@ -126,13 +126,13 @@
     }
   },
   {
-    "page_content": "### **Honorable Mentions**\n\n#### **ASL Recognition with Drone Technology**\n\nStudents: Trang Dang, Josh Park, Kajal Shukla, Davis Thomas\n\nFaculty Advisor: [Steve Barry](https://datascience.uchicago.edu/people/stephen-barry/)\n\n#### **Hedwig.ai**\n\nStudents: Scott Matsubara, Kshitij Mittal, Radhika Sharma, Sunvid Aneja\n\nAdvisor: [Nick Kadochnikov](https://datascience.uchicago.edu/people/nick-kadochnikov/)\n\n#### **Utilization of** **Drone Tracking for Dog Search and Rescue**\n\nStudents: Sanchin Arora, Indu Shekar, Anabella Liang, Priya Suvvaru Venkata\n\n#### **Leveraging** **Pre-Trained Large Language Models to Generate X-Ray Radiology Reports**\n\nStudents: Josiah Chung, Ashlyn Fentem, Maria Fionalita, Isabella Xue, Murat Ozcan\n\n#### **KYC 2020 | KYC 2020 –** **Adverse Media Detection**\n\nStudents: Sam Ding, Han Jiang, Richard Yang, Danhong Huang\n\n#### **Mondeléz | Game-Theoretical Approach to Marketing Strategy in a Dynamic Competitive Market**\n\nStudents: Devdutt Sharma, Suyash Lakhani, Parth Bansal, Irem Pamuksuz\n\nFaculty Advisor: [Anil Chaturvedi](https://datascience.uch𓇼.edu/people/anil-d-chaturvedi-phd/)\n\n#### **Aerial Robotics for Liquid Level Detection and Inventory Management**\n\nStudents: Zeyu Chen, Nicolás Ferreira, Peter Ryan, Chen Feng Tsai, Mia Zhang",
+    "page_content": "### **Honorable Mentions**\n\n#### **ASL Recognition with Drone Technology**\n\nStudents: Trang Dang, Josh Park, Kajal Shukla, Davis Thomas\n\nFaculty Advisor: [Steve Barry](https://datascience.uchicago.edu/people/stephen-barry/)\n\n#### **Hedwig.ai**\n\nStudents: Scott Matsubara, Kshitij Mittal, Radhika Sharma, Sunvid Aneja\n\nAdvisor: [Nick Kadochnikov](https://datascience.uchicago.edu/people/nick-kadochnikov/)\n\n#### **Utilization of Drone Tracking for Dog Search and Rescue**\n\nStudents: Sanchin Arora, Indu Shekar, Anabella Liang, Priya Suvvaru Venkata\n\n#### **Leveraging Pre-Trained Large Language Models to Generate X-Ray Radiology Reports**\n\nStudents: Josiah Chung, Ashlyn Fentem, Maria Fionalita, Isabella Xue, Murat Ozcan\n\n#### **KYC 2020 | KYC 2020 – Adverse Media Detection**\n\nStudents: Sam Ding, Han Jiang, Richard Yang, Danhong Huang\n\n#### **Mondeléz | Game-Theoretical Approach to Marketing Strategy in a Dynamic Competitive Market**\n\nStudents: Devdutt Sharma, Suyash Lakhani, Parth Bansal, Irem Pamuksuz\n\nFaculty Advisor: [Anil Chaturvedi](https://datascience.uch𓇼.edu/people/anil-d-chaturvedi-phd/)\n\n#### **Aerial Robotics for Liquid Level Detection and Inventory Management**\n\nStudents: Zeyu Chen, Nicolás Ferreira, Peter Ryan, Chen Feng Tsai, Mia Zhang",
     "metadata": {
       "title": "Master’s in Applied Data Science Autumn 2023 Capstone Winners – DSI",
       "original_url": "https://datascience.uchicago.edu/news/masters-in-applied-data-science-autumn-2023-capstone-winners",
       "category": "news",
       "date": "2025-05-04",
-      "source_file": "C:\\Users\\alen.pavlovic\\Documents\\GitLab\\gen-ai-midterm-project\\data\\markdown_clean_final\\news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "filename": "news_masters-in-applied-data-science-autumn-2023-capstone-winners.md",
       "section_level": "subsection",
       "section": "Unknown",

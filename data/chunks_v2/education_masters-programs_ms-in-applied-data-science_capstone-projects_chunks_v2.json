@@ -1,0 +1,178 @@
+[
+  {
+    "page_content": "## Capstone Projects\n\nStay at the forefront of real-world data science needs through the Capstone experience. Enhance your collaboration skills, benefit from mentoring, and engage in networking opportunities. These faculty-mentored teams add value to leading companies across sectors—from finance to entertainment, automotive, and more.\n\nThe culminating experience in the [Master's in Applied Data Science](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/) program is a Capstone Project, where you'll apply your knowledge and skills in practice. Immerse yourself in a real business problem and gain valuable, data-driven insights using authentic data. Together with project sponsors, you will develop a data science solution to address organizational challenges, enhance analytics capabilities, and expand talent pools and employment opportunities. Leveraging the university's research portfolio, you may also join a [research-focused team](https://datascience.uchicago.edu/research/).",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "## Capstone Projects",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_0",
+      "section_level": "header",
+      "header_text": "## Capstone Projects",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "### Selected Capstone Projects",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "### Selected Capstone Projects",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_1",
+      "section_level": "header",
+      "header_text": "### Selected Capstone Projects",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### COPD Readmission and Cost Reduction Assessment\n\nUChicago Applied Data Science students built data models and evaluated them across different frameworks. They found that the resulting model can rank-order readmission risk, allowing flexibility to apply interventions that prevent readmission.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### COPD Readmission and Cost Reduction Assessment",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_2",
+      "section_level": "header",
+      "header_text": "#### COPD Readmission and Cost Reduction Assessment",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### An NFL Ticket Pricing Study: Optimizing Revenue Using Variable and Dynamic Pricing Methods\n\nUChicago Applied Data Science students developed a strategy for an NFL team to implement ticket pricing that responds to changing factors, giving the team the opportunity to fill more seats.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### An NFL Ticket Pricing Study: Optimizing Revenue Using Variable and Dynamic Pricing Methods",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_3",
+      "section_level": "header",
+      "header_text": "#### An NFL Ticket Pricing Study: Optimizing Revenue Using Variable and Dynamic Pricing Methods",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Using Image Recognition to Identify Yoga Poses\n\nUChicago Applied Data Science students built an app that uses a one-step neural network to analyze images of yoga poses and recognize them, providing feedback to the app’s yoga-practicing user.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### Using Image Recognition to Identify Yoga Poses",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_4",
+      "section_level": "header",
+      "header_text": "#### Using Image Recognition to Identify Yoga Poses",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Using Image Recognition to Measure the Speed of a Pitch\n\nA UChicago Applied Data Science Capstone team developed an app that uses image-recognition algorithms to measure the speed of a pitched baseball. The app captures video, isolates the pitched ball, calculates the pitch's velocity, and displays the measurement, enabling users to measure pitch speed with their smartphones.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### Using Image Recognition to Measure the Speed of a Pitch",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_5",
+      "section_level": "header",
+      "header_text": "#### Using Image Recognition to Measure the Speed of a Pitch",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Real-Time Credit Card Fraud Detection\n\nCredit-card fraud puts consumers’ identities at risk and forces providers to cover fraudulent charges. A team of Applied Data Science students addressed this problem by creating synthetic data representing a large population of credit-card users and building a model that detects credit-card fraud in real time.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### Real-Time Credit Card Fraud Detection",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_6",
+      "section_level": "header",
+      "header_text": "#### Real-Time Credit Card Fraud Detection",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "### Interested in Becoming a Capstone Sponsor?\n\nThe Master’s in Applied Data Science program accepts projects year-round for placement during the Spring and Autumn quarters, with Spring being the largest cohort. Projects must be submitted no later than one month before the preferred starting quarter, based on the [UChicago academic calendar](https://www.uchicago.edu/en/education-and-research/academic-calendar).\n\n**Want more information?** Find details and answers to FAQs in the [Capstone Sponsorship Guidelines (PDF)](https://datascience.uchicago.edu/wp-content/uploads/2024/11/MS-ADS-Capstone-Sponsor-Guide-2025-2.pdf).",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "### Interested in Becoming a Capstone Sponsor?",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_7",
+      "section_level": "header",
+      "header_text": "### Interested in Becoming a Capstone Sponsor?",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Capstone Sponsor Incentives\n\nPartner organizations propose real-world problems, untested ideas, or research queries. Students, guided by instructors and researchers, generate actionable insights that provide long-term value. Sponsor benefits include:\n\n* Access to a pool of world-class students, accomplished instructors, and cited researchers\n* Optimized use of modern data-science methods with your data\n* A meaningful recruitment pipeline via the student team working on your project",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### Capstone Sponsor Incentives",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_8",
+      "section_level": "header",
+      "header_text": "#### Capstone Sponsor Incentives",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "#### Capstone Sponsor Obligations\n\nThere is no monetary cost or contract, but this is considered a partnership. Sponsors should be prepared to provide:\n\n* A detailed problem statement describing the data and expected results\n* **Two or more** points of contact\n* Access to project data by the first week of the quarter\n* Engagement through regular meetings (typically bi-weekly) while classes are in session\n* A non-disclosure agreement for the team, if required",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "#### Capstone Sponsor Obligations",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_9",
+      "section_level": "header",
+      "header_text": "#### Capstone Sponsor Obligations",
+      "header_level": 0
+    }
+  },
+  {
+    "page_content": "### Interested in Becoming a Capstone or Industry-Research Partner?\n\nContact us to submit your idea for collaboration or to ask questions about the partnership process.",
+    "metadata": {
+      "title": "Capstone Projects – DSI",
+      "original_url": "https://datascience.uchicago.edu/capstone-projects",
+      "category": "education",
+      "date": "2025-05-04",
+      "source_file": "/Users/danielkim/gen-ai-midterm-project/data/markdown_clean_final/education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "filename": "education_masters-programs_ms-in-applied-data-science_capstone-projects.md",
+      "section": "### Interested in Becoming a Capstone or Industry-Research Partner?",
+      "chunk_id": "education_masters-programs_ms-in-applied-data-science_capstone-projects_10",
+      "section_level": "header",
+      "header_text": "### Interested in Becoming a Capstone or Industry-Research Partner?",
+      "header_level": 0
+    }
+  }
+]
