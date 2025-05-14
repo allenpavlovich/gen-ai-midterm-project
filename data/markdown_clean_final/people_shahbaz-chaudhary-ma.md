@@ -11,4 +11,4 @@ People / MS Instructors
 
 Instructor; Manager of Data Science, Charles Schwab
 
-Shahbaz Chaudhary has over fifteen years of experience developing software systems for financial companies, with a recent focus on trading systems. His free and open-source tools are widely used on Wall Street. Three years ago, he transitioned to data science. He earned a Master of Science in Analytics from the University of Chicago, where his team received top honors for their capstone project. He currently works at Charles Schwab as a manager of data science.
+Shahbaz Chaudhary has over fifteen years of experience developing software systems for financial companies, specializing, most recently, in trading systems. His free and open-source tools are widely used on Wall Street. Three years ago, he made the switch to data science. He graduated from the University of Chicago’s Master of Science in Analytics program, where his team won top honors for their capstone project. He is currently working at Charles Schwab as a manager of data science.

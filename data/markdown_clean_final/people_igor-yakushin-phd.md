@@ -11,4 +11,4 @@ People / MS Instructors
 
 Instructor; Applied Scientist
 
-PhD in Theoretical Physics and MS in Computer Science. Currently an Applied Scientist at Amazon. Previously, Computational Scientist at Argonne National Laboratory and Scientist at the LIGO project, California Institute of Technology. Specializes in scientific computing, HPC, machine learning, and data analysis.
+PhD in Theoretical Physics, MS in Computer Science. Currently – Applied Scientist at Amazon. Previous jobs: Computational Scientist at the Argonne National Laboratory, Scientist at LIGO project of California Institute of Technology. I specialize in scientific computing, HPC, machine learning, data analysis.

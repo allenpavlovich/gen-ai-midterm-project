@@ -5,60 +5,53 @@ category: education
 date: 2025-05-04
 ---
 
-Email Page (opens new window)
-# MS in Applied Data Science
 ## How to Apply
-The application for 2025–2026 is now open!
-### Master’s in Applied Data Science Application Requirements
-The application portal for Autumn 2025 entry is now open! See our blog post here for tips on applying to the program.
 
-The In-Person program admits full- and part-time students for the autumn quarter each year. The Online program admits full- and part-time students for the autumn quarter. Online program part-time students may also begin in the spring quarter.
+The application for 2025 - 2026 is now open!
 
-Only completed applications are reviewed by the committee.
+## Master’s in Applied Data Science Application Requirements
+
+The [application portal](https://apply-psd.uchicago.edu/apply/) for entrance in Autumn 2025 is now open! Check out our blog post [here](https://datascience.uchicago.edu/news/applying-to-the-ms-in-applied-data-science-program-heres-what-we-look-for/) on tips for applying to the program.
+
+The [In-Person](https://datascience.uchicago.edu/education/masters-programs/in-person-program/) and [Online](https://datascience.uchicago.edu/education/masters-programs/online-program/) program admits full- and part-time students for entrance in the autumn quarter annually.
+
+*Only completed applications are sent for committee review.*
 
 ### Next Application Deadlines:
-**In-Person:**
 
-* November 7, 2024 – Priority Application Deadline
-* December 4, 2024 – Scholarship Priority Application Deadline
-* January 21, 2025 – International Application Deadline (requiring sponsorship from UChicago)
-* March 4, 2025 – Second Priority Application Deadline
+**In-Person:**
 * May 6, 2025 – Third Priority Application Deadline
 * June 23, 2025 – Final Application Deadline
 
 **Online:**
-
-* Spring 2025 Part-Time, Online Only
-  * January 9, 2025 – Final Application Deadline
 * Autumn 2025
   * June 23, 2025 – Final Application Deadline
-
-*The application portal may close early if the cohort is filled.*
+* The [application portal](https://apply-psd.uchicago.edu/apply/) may close early if the cohort is filled.
 
 ## Application Components
 
 ### Letters of Recommendation
 
-Two letters of recommendation are required. We *strongly recommend* that at least one letter comes from a direct manager, supervisor, or internship supervisor who can speak to skills you demonstrated or gained in a professional workplace (e.g., leadership, teamwork, collaboration, initiative, management, or similar).
+The MS in Applied Data Science program requires two letters of recommendation. We *strongly recommend* that at least one letter is written by someone such as a direct manager/supervisor or internship supervisor who can attest to skills you demonstrated or gained though a professional workplace experience (e.g., leadership, teamwork, collaboration, initiative, management, other).
 
-Note: Letters of recommendation can be uploaded after you submit your application. Recommended sources include professors, supervisors or managers, and professional mentors.
+Note: Letters of recommendation can be uploaded after you submit your application. Recommended sources for letters of recommendation include: professors; supervisors or managers; professional mentors.
 
-Letters from family members, friends, or peers are not accepted.
+We do not accept letters of recommendation from family members, friends, or peers.
 
 ### Candidate Statement
 
-The candidate statement is a key part of your application. The admissions committee pays close attention to how you present your goals and qualifications. The application will include a prompt with detailed instructions on what to include in your statement.
+The candidate statement is a key part of your application. The admissions committee pays careful attention to how you understand and present your aims and qualifications. The application will include a prompt with detailed instructions on the information the program is looking for in your candidate statement.
 
-Best practices:
+Best practices to keep in mind as you write:
 * Do not restate your resume.
 * Your statement should not exceed 1,000 words.
 
 ### Resume/CV
 
-The admissions committee will review your resume. Please ensure your resume is carefully updated before submitting.
+The Master’s in Applied Data Science admissions committee will review your resume. We encourage you to take the time to carefully update the resume you submit to us.
 
-Include:
-* Work experience, including internships and part-time positions in analytics/data science
+Important to Include:
+* Work experience, including internships and part-time positions in the analytics/data science space
 * Major accomplishments and awards
 * Educational background, including areas of study
 * Professional conferences attended
@@ -68,9 +61,9 @@ Not needed:
 
 ### Programming Supplement
 
-Your [application](https://apply-psd.uchicago.edu/apply/) includes a section on programming skills. While applicants with limited R or Python experience can be admitted, the admissions committee values prior programming experience. Include a PDF of *no more than two pages* demonstrating your current programming language skills.
+Your [application](https://apply-psd.uchicago.edu/apply/) contains a section on programming skills. Although applicants with limited skills in R or Python can and do get accepted into the program, the admissions committee values prior programming experience. Include a PDF of *no more than two pages* demonstrating current programming language skills.
 
-Examples include a PDF of work completed in R or Python. The supplement must be submitted as a PDF. We look for the following in your code (your code does not need to include all of these):
+Examples include a PDF submission of work completed in R or Python. The programming supplement must be shared as a PDF file. We are looking for the following in your code (see below). Please note your code does not need to contain all of the below.
 * Ingest data from csv
 * Manage different data types
 * Use your function for data analysis
@@ -81,34 +74,36 @@ Examples include a PDF of work completed in R or Python. The supplement must be 
 
 ### Virtual Portfolio
 
-Short, recorded videos responding to prompts within the application are required. These videos provide an alternative way to explain why you are a strong fit for the program.
+The MS in Applied Data Science requires short, recorded videos to a given prompt(s) within the application. These short videos give applicants an alternative means to outline why they are a strong fit for the MS in Applied Data Science program.
 
-One video prompt response is required; the other is optional. Each video should be approximately 1 minute and 30 seconds long.
+One video prompt response is required; the other is optional. Each video should be approximately 1:30 minutes in length.
 
 ### International Students
 
-* The in-person, full-time program only admits students for the Autumn start.
+* The in-person, full-time program only intakes students for the Autumn start.
 * Only the full-time, in-person program is visa-eligible.
-* International students may also apply to the Online program, which does not require citizenship or permanent resident status and does not provide visa sponsorship.
+* International students are also welcome to apply to our Master’s in Applied Data Science Online program, which does not require citizenship or permanent resident status and does not provide visa sponsorship.
+
+*(Note: The long `urldefense.com` link was likely a tracking link for an image or a resource related to TOEFL. Since the image itself wasn't in the text and the link is opaque, it has been removed. If there was specific text content associated with it, that would ideally be included directly.)*
 
 ### English Language Requirement
 
-Applicants who do not meet the English Language Proficiency criteria must submit proof of English proficiency.
+Applicants to the Master’s in Applied Data Science program who do not meet the English Language Proficiency criteria must submit proof of English language proficiency.
 
-Minimum scores: TOEFL, 102 (no subscore requirement); IELTS, 7 (no subscore requirement).
+Minimum scores for the Master’s in Applied Data Science program: TOEFL, 102 (no subscore requirement); IELTS, 7 (no subscore requirement).
 
 Please review our [waiver policy here](https://grad.uchicago.edu/admissions/apply/english-language-requirements/).
 
 ### Transcripts from all previous colleges and universities attended
 
-When applying, only *unofficial* transcripts are required. If admitted, official transcripts must be sent to the following (a bachelor’s degree is required to apply):
+When applying to the program, only your *unofficial* transcripts are required. If you are admitted into the program, then official transcripts must be sent to the following (note a bachelor’s degree is required to apply to the program):
 
-Have your institution send e-transcripts directly to:  
+Please have your institution send your e-transcripts directly to:  
 **applieddatascience-admissions@uchicago.edu**.
 
-***If*** your institution cannot send documents electronically, have them mail transcripts to the address below.
+***If*** your institution cannot send your documents electronically, please have them send your transcripts to the following mailing address.
 
-If documents are mailed, they must arrive in their original, school-sealed envelope. Documents not received in a school-sealed envelope will be considered unofficial. If your transcript does not list degree conferral information (degree earned and date of conferral), an attested copy of your degree certificate is also required.
+Please note, if documents are being mailed, we must receive them in their original, school-sealed envelope. If your documents are not received in a school-sealed envelope, they will be considered unofficial. Additionally, if your transcript does not list degree conferral information (degree earned and date of conferral), we will also need to receive an attested copy of your degree certificate.
 
 The University of Chicago  
 Attention: MS in Applied Data Science Admissions  
@@ -117,11 +112,11 @@ Chicago, Illinois 60611
 
 ### Application Fee
 
-There is a $90 non-refundable application fee. For questions about a fee waiver, see the [Physical Sciences Division fee waiver policy](https://physicalsciences.uchicago.edu/academics/admissions/application-requirements/#FeeWaiver).
+There is a $90 non-refundable application fee. For questions regarding an application fee waiver, please refer to the [Physical Sciences Division fee waiver policy](https://physicalsciences.uchicago.edu/academics/admissions/application-requirements/#FeeWaiver).
 
 ### Tuition, Fees, & Aid
 
-The program awards merit-based scholarships. Learn more about [Tuition, Fees, & Aid](https://datascience.uchicago.edu/education/tuition-fees-aid/).
+The program awards merit-based scholarships. Read more about [Tuition, Fees, & Aid](https://datascience.uchicago.edu/education/tuition-fees-aid/).
 
 ## Meet your Admissions Counselor
 
@@ -145,6 +140,6 @@ Jose Alvarado supports prospective students throughout the admissions process fo
 
 ## Get in Touch
 
-Before contacting us, please check if your question is answered on our [FAQs page](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/).
+Before we get back to you, please check to see if your question has already been answered on our [FAQs page](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/).
 
 [The application for entrance in Autumn 2025 is open!](https://apply-psd.uchicago.edu/apply/)

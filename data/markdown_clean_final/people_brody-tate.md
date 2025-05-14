@@ -11,7 +11,7 @@ People / Leadership & Staff
 
 Program Manager, Online, MS in Applied Data Science
 
-Brody C Tate, EdD, is the Program Manager, Online for the MS in Applied Data Science program. His research and teaching focus on critical reflection, online learning, leadership and policy, marginalized students, and social justice. Prior to joining UChicago, he was a Curriculum Developer at Academic Programs International and Learning Portfolio Program Manager for the Center for Engaged Learning, Teaching, and Scholarship at Loyola University Chicago. In these roles, he worked in student online learning, curriculum development and support, faculty teaching and learning practices, and scholarly research in higher education. He recently earned his EdD in Curriculum, Culture, and Communities from Loyola University Chicago.
+Brody C Tate, EdD, serves as the Program Manager, Online for the MS in Applied Data Science program. His research and pedagogical practices center around critical reflection, online learning, leadership and policy, marginalized students, and social justice. Before his role at UChicago, he served as a Curriculum Developer at Academic Programs International and Learning Portfolio Program Manager for the Center for Engaged Learning, Teaching, and Scholarship at Loyola University Chicago. Both roles engaged in student online learning, curriculum development and support, faculty teaching and learning practices, and scholarly research in higher education. He recently earned his EdD in Curriculum, Culture, and Communities from Loyola University Chicago.
 
 * Office: NBC Tower, 950
 * Email: btate3@uchicago.edu

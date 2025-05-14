@@ -11,7 +11,7 @@ People / Leadership & Staff
 
 Chief of Staff, Executive Director, MS in Applied Data Science
 
-Kristin I. McCann, PhD, is the Chief of Staff and Executive Director for the Master’s in Applied Data Science program. Her interdisciplinary research and practice focus on how institutions can best support historically underrepresented and underserved students and faculty in academia, particularly in STEM and academic medicine. Before her current role, she served as Associate Dean of Students for The University of Chicago’s National Institutes of Health-funded Medical Scientist Training Program, which supports MD-PhD pathways. Dr. McCann completed her postdoctoral fellowship at Northwestern University’s Feinberg School of Medicine, where she researched pathways to medical careers for low-income and racially underrepresented youth.
+Kristin I. McCann, PhD serves as the Chief of Staff, Executive Director for the Master’s in Applied Data Science program. Her interdisciplinary research and practice centers on how institutions can best support historically underrepresented and underserved student and faculty populations in academia—specifically in STEM and academic medicine contexts. Prior to her current role, she served Associate Dean of Students for The University of Chicago’s National Institutes of Health-funded Medical Scientist Training Program which MD-PhD pathways. Dr. McCann completed her postdoctoral fellowship with  Northwestern University’s Feinberg School of Medicine where she conducted research on pathways to careers in medicine for low-income and racially underrepresented youth.
 
 * Email: kmccann6@uchicago.edu
 * Email: mccann.kristin@uchicago.edu

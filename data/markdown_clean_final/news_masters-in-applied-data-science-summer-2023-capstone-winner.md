@@ -7,28 +7,29 @@ date: 2025-05-04
 
 # Master’s in Applied Data Science Summer 2023 Capstone Winner
 
-Showcasing advanced analytics skills, Applied Data Science master’s students develop solutions for pressing industry challenges. The [Capstone Project](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/), the culmination of the [MS in Applied Data Science program](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/), brings students together with industry partners to address real-world analytics problems. The Summer Showcase featured projects across various industries, data types, and methodologies, with one team receiving special recognition.
+Showcasing today’s most advanced analytics skills, Applied Data Science masters students develop solutions for today’s pressing industry challenges
+The [Capstone Project](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/), the culmination of the [MS in Applied Data Science program](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/), unites students with industry partners to solve real-world analytics problems. The Summer Showcase featured projects spanning industries, data types, and methodological approaches—with one team standing out for special recognition.
 
-“The quality of the work was truly impressive, and the teams deserve our congratulations for their hard work, professionalism, and commitment to excellence,” said [Greg Green](https://datascience.uchicago.edu/people/greg-green/), Director of the MS in Applied Data Science Program. “Their inventiveness was especially evident in the solutions they developed for their industry partners. We look forward to staying connected and hearing about the graduates’ future achievements.”
+“The quality of the work was truly impressive and the teams deserve our congratulations for their hard work, professionalism, and commitment to excellence,” said [Greg Green](https://datascience.uchicago.edu/people/greg-green/), Director of MS in Applied Data Science Program. “Their inventiveness was especially on display with the solutions they developed for their industry partners. We’re looking forward to staying connected and hearing about the graduates’ next achievements.”
 
 *Learn more about the winning project below.*
-
-**[UChicago Medicine](https://radiology.uchicago.edu/) | Medical Language Processing – Patient Based Radiology Question & Answering System**  
-**Presenters: Ananth Prayaga, Evelyn Wu, Nitin Gupta, Vivian Yeh**  
+**[UChicago Medicine](https://radiology.uchicago.edu/) | Medical Language Processing – Patient Based Radiology Question**
+**& Answering System**
+**Presenters: Ananth Prayaga, Evelyn Wu, Nitin Gupta, Vivian Yeh**
 **Faculty Advisor: [Utku Pamuksuz](https://datascience.uchicago.edu/people/utku-pamuksuz-phd/)**
 
-A major challenge in healthcare is effectively utilizing the vast amount of unstructured medical data available to professionals. Without a systematic and streamlined approach, reviewing patient information requires significant time that could otherwise be spent with patients.
+A key challenge in healthcare today centers around optimally using the enormous quantity of unstructured medical data available to healthcare professionals. Lacking a systematic and streamlined strategy, sorting through patient information demands significant time that could otherwise be spent directly with patients.
 
-For their [Capstone Project](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/), Ananth Prayaga, Evelyn Wu, Nitin Gupta, and Vivian Yeh addressed the labor-intensive task of reading radiology reports. They implemented a Closed Book Question-Answering (Q&A) System using the latest AI technologies to create an intelligent knowledge receiver, ContextualAI, capable of accurately answering queries without relying on external knowledge sources.
+For their [Capstone Project](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/), Ananth Prayaga, Evelyn Wu, Nitin Gupta, and Vivian Yeh focused on the labor-intensive process of reading radiology reports. They used a Closed Book Question-Answering (Q&A) System and the latest AI technologies to design an intelligent knowledge receiver, which they named ContextualAI, that can respond accurately to queries without external knowledge sources.
 
 “A central area of development in the generative AI field involves using LLMs to ingest site- or institution-specific data that can then be queried,” the team says. “Hospitals, financial services companies, and law firms don’t want to share their internal data with OpenAI or other AI systems due to security and privacy reasons. Our task involved creating a framework using an LLM that could ingest and query local data without compromising privacy or security.”
 
-Aiming to optimize workflow efficiency, increase productivity, and reduce physician burnout, the team tested existing Large Language Models (LLMs) and vector databases through various approaches as they developed their framework. Two main requirements guided their solution: ingesting the unstructured data of the partner institution and teaching the LLM a new skill to process that data.
+Focused on optimizing workflow efficiency, increasing productivity, and alleviating physician burnout, the team tested existing Large Language Models (LLM) and vector databases across a variety of approaches as they developed their framework. Two separate requirements drove their search for a solution: one, ingesting the unstructured data of the partner institution and, two, teaching the LLM a new skill to work with that data.
 
-Ultimately, the team achieved the best results using two of [Meta’s AI tools](https://ai.meta.com/), [Llama2](https://www.llama2.ai/) and [Faiss](https://faiss.ai/index.html), which generated answers with approximately 70% accuracy, validated using patient data and human evaluations.
+In the end, the team attained the best performance from two of [Meta’s AI tools](https://ai.meta.com/), [Llama2](https://www.llama2.ai/) and [Faiss](https://faiss.ai/index.html), which generated answers with an approximate accuracy of 70% that the team validated using patient data and human evaluations.
 
 “But we won’t stop there,” the team says. “This is a growing field and new models are being released every few weeks, so we will continue testing as new areas for improvement arise. Our client has already started to deploy our product and has expressed strong interest in further collaboration.”
 
-The team also emphasizes the transformative potential of their project, noting its possible applications beyond healthcare. They point to a future where intelligent answers are just a question away.
+The team also highlights the transformative power of their project and its potential for applications that extend beyond healthcare into other domains. It points, they say, to a future where intelligent answers are just a question away.
 
 “This is just the beginning of what is possible and we’re really excited to see it developed further to reach its maximum potential.”

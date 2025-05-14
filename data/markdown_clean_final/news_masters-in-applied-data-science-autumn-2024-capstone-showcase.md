@@ -9,11 +9,11 @@ date: 2025-05-04
 
 MS in Applied Data Science students deliver impactful solutions through capstone projects.
 
-The Capstone Showcase marks the culmination of the student experience in the University of Chicago’s [MS in Applied Data Science](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/) program. This event combines academic knowledge with practical, real-world challenges across key research areas. This year, 37 capstone teams presented their projects, leading all phases of problem-solving with support from faculty, staff, and industry experts. Projects covered a wide range of industries, data types, and methodologies, with all teams demonstrating professionalism, pride, and a commitment to excellence. Judges noted the Showcase featured a diverse mix of research-focused, industry-generated, and independent student projects spanning healthcare, marketing, supply chain, financial services, and more.
+The Capstone Showcase represents the pinnacle of the student experience in the University of Chicago’s [MS in Applied Data Science](https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/) program. This event merges academic knowledge with practical, real-world challenges across various key research areas. This year, 37 capstone teams presented their projects, leading all phases of problem-solving with the support of faculty, staff, and industry experts. While projects spanned numerous industries, data types, and methodologies, all teams exhibited professionalism, pride, and commitment to excellence. The judges observed that the Showcase featured a diverse array of research-focused, industry-generated, and independent student projects spanning healthcare, marketing, supply chain, financial services, and more.
 
-Paula Payton, Head of the Center for Machine Intelligence and Data Science (MInDS) at Deloitte Research & Insights, served as a distinguished industry judge for the Autumn 2024 Capstone Showcase—her third consecutive year. Impressed by the quality of the graduate student presentations, Payton said, “Talk about pushing back the frontiers in applied AI…. talented students presented unbelievably original solutions to classic industry problems. That was exciting for me to see as a professional in the field and also someone who cares very deeply about data science and AI education.”
+Paula Payton is the Head of the Center for Machine Intelligence and Data Science (MInDS) at Deloitte Research & Insights. She also happened to be a distinguished industry judge for the Autumn 2024 Capstone Showcase, her third year running. Impressed with the caliber of the graduate student presentations, Payton said, “Talk about pushing back the frontiers in applied AI…. talented students presented unbelievably original solutions to classic industry problems. That was exciting for me to see as a professional in the field and also someone who cares very deeply about data science and AI education.”
 
-One standout project was “Once Upon,” a storytelling app that uses AI to create personalized stories for children based on their imagination and preferences. The team—Hima Cheruvu, Nia Gangar, Rishika Ravindran, and Christian Piantanida—shared their inspiration: “Our inspiration came from a moment of pure frustration and imagination. A few years ago, one of our team members’ then 4-year-old neighbor tried to get Amazon Alexa to tell her a story about her favorite princess going to swimming class. Alexa couldn’t quite deliver, and her neighbor was so frustrated that she started yelling at Alexa. That experience stuck with her—it showed how much children want to hear stories that are unique and personally meaningful to them, yet existing technology struggled to meet that need.” The team aimed to create a tool that inspires creativity and empowers kids to participate in the storytelling process.
+One of the standout projects was “Once Upon,” a storytelling app that uses AI to craft personalized stories for children based on their imagination and preferences. The team, consisting of Hima Cheruvu, Nia Gangar, Rishika Ravindran, and Christian Piantanida, shared their inspiration: “Our inspiration came from a moment of pure frustration and imagination. A few years ago, one of our team members’ then 4-year-old neighbor tried to get Amazon Alexa to tell her a story about her favorite princess going to swimming class. Alexa couldn’t quite deliver, and her neighbor was so frustrated that she started yelling at Alexa. That experience stuck with her—it showed how much children want to hear stories that are unique and personally meaningful to them, yet existing technology struggled to meet that need.” The student team wanted to create a tool that inspires creativity while empowering kids to be part of the storytelling process.
 
 Learn more about the projects that won Best in Show below.
 
@@ -31,7 +31,7 @@ Faculty Advisor: [Steve Barry](https://datascience.uchicago.edu/people/stephen-b
 
 **Chicago White Sox | Deriving Swing Value & Context from Biomechanics Data**
 
-Presenters: Hank Snowdon, Anthony Buti, Alexander Yeager, Devan Joshi
+Presenters: Hank Snowdon , Anthony Buti, Alexander Yeager, Devan Joshi
 
 Faculty Advisor: [Jeanette Shutay](https://datascience.uchicago.edu/people/jeanette-shutay-phd/)
 
@@ -55,9 +55,7 @@ Presenters: Yuki Leong, Melody Gao, Christina Song, Johnny Ji
 
 Presenters: Aayush Verma, Ashmita Mukherjee, Rishab Mohan, Leo Li
 
-Faculty Advisor: [Utku Pamuksuz](https://datascience.uchicago.edu/people/utku-pamuksuz-phd/)
-
-#### **Honorable Mentions**
+Faculty Advisor: [Utku Pamuksuz](https://datascience.uchicago.edu/people/utku-pamuksuz-phd/)#### **Honorable Mentions**
 
 **GPT for Healthcare | Radipedia: Customized, Transparent, and Multimodal Assistant for Radiology**
 
