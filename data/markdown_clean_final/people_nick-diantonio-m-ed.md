@@ -11,9 +11,9 @@ People / Leadership & Staff
 
 Graduate Academic Advisor
 
-Nick DiAntonio is a Graduate Academic Advisor for the MS in Applied Data Science program at the University of Chicago, primarily supporting students in the In-Person Program. He works with students to help them progress toward degree completion and achieve their academic goals. For advising questions or assistance, contact Nick at applieddatascience-advising@uchicago.edu or visit [Connecting with Your MS in Applied Data Science Advisors](https://applieddatascience.psd.uchicago.edu/advising/).
+Nick DiAntonio serves as one of the Graduate Academic Advisors for the MS in Applied Data Science program at the University of Chicago. Nick primarily advises students in the In-Person Program. As a Graduate Academic Advisor, Nick enjoys working with students to help them progress towards degree completion and meet their academic goals. For advising questions and assistance, please reach out to Nick at applieddatascience-advising@uchicago.edu or visit [Connecting with Your MS in Applied Data Science Advisorshttps://applieddatascience.psd.uchicago.edu/advising/ "[https://applieddatascience.psd.uchicago.edu/advising/"].
 
-Before joining the University of Chicago, Nick earned a Bachelor of Science in Education and a Master of Education from Kent State University in Kent, Ohio. He has worked professionally in higher education since 2018 and is committed to supporting student success.
+Prior to working at the University of Chicago, Nick earned his Bachelor of Science in Education and Master of Education from Kent State University in Kent, Ohio. Nick has worked professionally in higher education since 2018 and is dedicated to helping students succeed.
 
 * Email: applieddatascience-advising@uchicago.edu
 * Office: NBC Tower, 950

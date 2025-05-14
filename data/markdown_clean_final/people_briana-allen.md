@@ -11,7 +11,7 @@ People / Leadership & Staff
 
 Director, Academic Affairs and Operations
 
-Briana Allen is the Director of Academic Affairs and Operations for the MS in Applied Data Science program. She oversees the daily operations of the Instructional Services and Operations teams. Briana holds a Master of Technology in Education and has a background in instructional design, with a focus on online course design. As a Quality Matters Certified Peer Reviewer, she emphasizes the quality of online course development and student experiences, including how online best practices can benefit in-person courses. Briana is dedicated to mentoring instructors in creating high-quality instructional resources, using active learning strategies, and applying instructional technologies to enhance student engagement across all modalities.
+Briana Allen serves as the Director of Academic Affairs and Operations for the MS in Applied Data Science program. Briana oversees the day-to-day responsibilities of the Instructional Services and Operations teams. Briana holds a Master of Technology in Education and has a background in instructional design, with an emphasis in online course design. As a Quality Matters Certified Peer Reviewer, Briana focuses on the intersection of quality of online course development and student experiences, including how online best practices can be leveraged by in-person courses. Briana is passionate about mentoring instructors in the creation of high-quality instructional resources, leveraging active learning strategies, and applying instructional technologies that create engaging student experiences across all modalities.
 
 ballen10@uchicago.edu
 

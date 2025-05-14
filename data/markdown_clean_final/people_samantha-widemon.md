@@ -11,7 +11,7 @@ People / Leadership & Staff
 
 Graduate Academic Advisor, MS in Applied Data Science
 
-Samantha Widemon is a Graduate Academic Advisor for the MS in Applied Data Science in-person and online programs at the University of Chicago. She earned her Bachelor's degree in Communication Studies from Northwestern University and her Master in Nonprofit Administration, with certificates in Higher Education and Leadership, from North Park University. Samantha has eight years of experience in higher education, providing administrative and advising support to students throughout their undergraduate and graduate studies.
+Samantha Widemon serves as one of the Graduate Academic Advisors for the MS in Applied Data Science in-person and online programs at the University of Chicago. Samantha earned her Bachelors in Communication Studies degree from Northwestern University, and her Master in Nonprofit Administration, with certificates in Higher Education and Leadership, from North Park University. She has worked in higher education for eight years providing administrative and advising support to students as they navigated through their undergraduate and graduate studies.
 
 * Email: applieddatascience-advisingonline@uchicago.edu
 * Office: NBC Tower, 950

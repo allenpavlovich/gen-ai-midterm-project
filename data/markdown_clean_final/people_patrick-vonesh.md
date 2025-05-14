@@ -10,7 +10,7 @@ People
 #### Patrick Vonesh
 Senior Assistant Director, Enrollment Management, MS in Applied Data Science
 
-Patrick Vonesh is the Senior Assistant Director of Enrollment Management for the Applied Data Science Program. Before this role, he worked with academic institutions across the United States in enrollment management. Patrick earned both his BA and MA in History from Eastern Illinois University. His professional focus is supporting students who seek to advance their academic and professional understanding of Data Science.
+Patrick Vonesh serves as the Senior Assistant Director of Enrollment Management for the Applied Data Science Program. Prior to his current role, Patrick worked with academic institutions across the United States in enrollment management. Patrick earned his BA and MA in History at Eastern Illinois University. Patrick’s professional focus is working with talented students that want to grow their academic and professional understanding of Data Science as a discipline.
 
 * Office: NBC Tower, 950
 * Email: pvonesh@uchicago.edu

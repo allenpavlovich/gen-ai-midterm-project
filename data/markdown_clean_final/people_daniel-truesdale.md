@@ -11,7 +11,7 @@ People / Leadership & Staff
 
 Director, Enrollment Management and Analytics, MS in Applied Data Science
 
-Daniel Truesdale is the Director of Enrollment Management & Analytics for the MS in Applied Data Science in-person and online programs. A graduate of the Harris School of Public Policy at the University of Chicago, Daniel supports students throughout their educational journey and promotes lifelong learning. He has also completed Machine Learning and Data Engineering courses at the University of Chicago, which deepens his understanding of the University’s commitment to Data Science.
+Daniel Truesdale serves as the Director of Enrollment Management & Analytics for the MS in Applied Data Science in-person and online programs. A graduate from the Harris School of Public Policy at the University of Chicago, Daniel has been assisting students on their educational journey and encourages lifelong learning. He has also completed Machine Learning and Data Engineering courses at the University of Chicago, which enables him to understand the University’s commitment to Data Science.
 
 * Email: dtruesdale@uchicago.edu
 * Office: NBC Tower, 950
