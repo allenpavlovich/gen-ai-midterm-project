@@ -180,10 +180,3 @@ logs/*
 # Visualization outputs
 data/*.png
 data/*.csv
-
-# Ignore specific untracked files and directories
-data/chroma_db/chroma.sqlite3
-data/chroma_index/
-docs/final_files/
-docs/supervisor_worker_rag_demo.html
-notebooks/chroma_minimal_test_db/
